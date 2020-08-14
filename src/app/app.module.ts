@@ -6,6 +6,8 @@ import { AtrrBindingComponent } from './atrr-binding/atrr-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { EventFilteringComponent } from './event-filtering/event-filtering.component';
+import { TemplateVariablComponent } from './template-variabl/template-variabl.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     AtrrBindingComponent,
     ClassBindingComponent,
     StyleBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    EventFilteringComponent,
+    TemplateVariablComponent
   ],
   imports: [
     BrowserModule

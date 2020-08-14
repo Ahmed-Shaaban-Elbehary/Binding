@@ -6,22 +6,24 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <h2>{{title}}</h2>
-  <h1 [textContent]="someText"></h1>
+  <h1>{{title}}</h1>
+  <!--<h1 [textContent]="someText"></h1>
   <img [src]="imgUrl" alt="logo">
-  <hr>
+   <hr>
   <app-atrr-binding></app-atrr-binding>
   <hr>
   <app-class-binding></app-class-binding>
   <hr>
   <app-style-binding></app-style-binding>
   <hr>
-  <app-event-binding></app-event-binding>
+  <app-event-binding></app-event-binding><app-event-filtering></app-event-filtering>
+  <hr> -->
+  <app-template-variabl></app-template-variabl>
   `,
   styles: []
 })
 export class AppComponent {
-  title = 'HandellerAndBinding';
+  title = 'Angular';
   imgUrl = 'http://lorempixel.com/400/200/';
   someText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry';
 }
