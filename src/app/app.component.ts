@@ -20,6 +20,7 @@ import { Component } from '@angular/core';
   <hr> -->
   <!-- <app-template-variabl></app-template-variabl> -->
   <!-- <app-two-ways-binding></app-two-ways-binding> -->
+  <app-pipesfilters></app-pipesfilters>
   `,
   styles: []
 })

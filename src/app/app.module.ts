@@ -9,6 +9,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { EventFilteringComponent } from './event-filtering/event-filtering.component';
 import { TemplateVariablComponent } from './template-variabl/template-variabl.component';
 import { TwoWaysBindingComponent } from './two-ways-binding/two-ways-binding.component';
+import { PipesfiltersComponent } from './pipesfilters/pipesfilters.component';
+import { CustomePipeComponent } from './custome-pipe/custome-pipe.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { TwoWaysBindingComponent } from './two-ways-binding/two-ways-binding.com
     EventBindingComponent,
     EventFilteringComponent,
     TemplateVariablComponent,
-    TwoWaysBindingComponent
+    TwoWaysBindingComponent,
+    PipesfiltersComponent,
+    CustomePipeComponent
   ],
   imports: [
     BrowserModule,
