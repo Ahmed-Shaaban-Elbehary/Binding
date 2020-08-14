@@ -13,6 +13,10 @@ import { Component } from '@angular/core';
   <app-atrr-binding></app-atrr-binding>
   <hr>
   <app-class-binding></app-class-binding>
+  <hr>
+  <app-style-binding></app-style-binding>
+  <hr>
+  <app-event-binding></app-event-binding>
   `,
   styles: []
 })

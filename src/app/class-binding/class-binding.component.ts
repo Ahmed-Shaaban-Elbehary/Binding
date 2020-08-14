@@ -6,17 +6,20 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-class-binding',
   template: `
-    <button class="btn btn=primary" [class.active]="isActive"></button>
+    <button class="btn btn-primary" [class.active]="isActive">save</button>
   `,
   styles: [`
-  active{
+  button{
+    display:none;
+  }
+  .active{
     display: block;
   }
   `
   ]
 })
 export class ClassBindingComponent implements OnInit {
-isActive = true;
+isActive = false;
   constructor() { }
 
   ngOnInit(): void {
