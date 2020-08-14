@@ -18,7 +18,8 @@ import { Component } from '@angular/core';
   <hr>
   <app-event-binding></app-event-binding><app-event-filtering></app-event-filtering>
   <hr> -->
-  <app-template-variabl></app-template-variabl>
+  <!-- <app-template-variabl></app-template-variabl> -->
+  <!-- <app-two-ways-binding></app-two-ways-binding> -->
   `,
   styles: []
 })
