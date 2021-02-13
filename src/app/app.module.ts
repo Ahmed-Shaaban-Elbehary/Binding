@@ -11,6 +11,8 @@ import { TemplateVariablComponent } from './template-variabl/template-variabl.co
 import { TwoWaysBindingComponent } from './two-ways-binding/two-ways-binding.component';
 import { PipesfiltersComponent } from './pipesfilters/pipesfilters.component';
 import { CustomePipeComponent } from './custome-pipe/custome-pipe.component';
+import {SummaryPipe} from './summary.pipe';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { CustomePipeComponent } from './custome-pipe/custome-pipe.component';
     TemplateVariablComponent,
     TwoWaysBindingComponent,
     PipesfiltersComponent,
-    CustomePipeComponent
+    CustomePipeComponent,
+    SummaryPipe,
   ],
   imports: [
     BrowserModule,
